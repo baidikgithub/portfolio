@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(41, 39, 39);
+            color: white;
+            background-image:url("bgimage.jpg") ;
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: black;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 98px 0;
+        }
+
+        .firstSection div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            /* background-color: brown; */
+            font-size: 3rem;
+            margin-top: 95px;
+        }
+
+        .rightSection {
+            /* background-color: brown; */
+        }
+
+        .rightSection img {
+            /* height: 98px; */
+            width: 80%;
+            margin-top: 60px;
+            border-radius: 45%;
+        }
+
+        .name {
+            color: rgb(148, 141, 141);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.04rem;
+        }
+
+        .right ul li a:hover {
+            text-decoration: underline;
+            color: white;
+            /* background-color: grey; */
+            font-size: 1.06rem;
+
+
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .text-gray{
+            color: rgb(187, 181, 181);
+        }
+        .secondSection box{
+            background: white;
+            width:80vw;
+            height:2px;
+            margin:56px 0;
+        }
+        .buttons{
+            display: flex;
+            margin:4px;
+            padding: 4px;
+            border-radius: 50%;
+        }
+        .btn{
+            padding:4px;
+            margin:13px;
+            background-color: white;
+            box-shadow: 2rem;
+            border-radius: 20%;
+        }
+        .btn:hover{
+            font-size: 1.04rem;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="name">Baidik</span>
+                <!-- <div>and I am a passionate</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="photo.jpg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>Education</h1>
+            <br>
+            <h3>1) Assam Down Town University</h3>
+
+            <span class="text-gray">Bachelor of Science</span>
+            <br>
+            <span class="text-gray">2021-Present</span>
+            <br>
+            <br>
+            <p>Activities and societies:Art club, Music club, Literary club, Robotics 
+                team, Sports club
+            </p>
+            <br>
+            <p>Skills: Research skills, Communication, Organization skills, Teamwork</p>
+            <br>
+            <br>
+            <h3>2) Ramanuj Gupta Senior Secondary School</h3>
+
+            <span class="text-gray">Higher Secondary, Science stream</span>
+            <br>
+            <span class="text-gray">2020-2021</span>
+            <br>
+            <br>
+            <p>Activities and societies: Science club
+            </p>
+            <br>
+            <p>Skills: Research skills, Communication, Organization skills, Teamwork</p>
+            <br>
+            <br>
+            <h3>3) Don Bosco Higher Secondary School</h3>
+
+            <span class="text-gray">High School</span>
+            <br>
+            <span class="text-gray">2018-2019</span>
+            <br>
+            <br>
+            <p>Activities and societies: Science club
+            </p>
+            <br>
+            <p>Skills: Research skills, Communication, Organization skills, Teamwork</p>
+            <div class="box"></div>
+
+        </section>
+        
+    </main>
+
+</body>
+
+</html>
